@@ -4,17 +4,6 @@ Simli-Go-SDK is a Go library for interacting with the Simli API, enabling the cr
 
 ---
 
-## **Features**
-
-- **Audio-to-Video Avatar Generation**:
-  Convert audio files into videos of an animated avatar.
-- **Text-to-Video Avatar Generation**:
-  Generate avatar videos from text using built-in or third-party TTS services.
-- **Session Management**:
-  Support for initializing and managing audio-to-video sessions.
-
----
-
 ## **Installation**
 
 Add the library to your Go project using `go get`:
