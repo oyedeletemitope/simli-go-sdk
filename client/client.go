@@ -14,7 +14,6 @@ type Client struct {
 	HTTPClient *http.Client
 }
 
-// NewClient initializes a new Simli client.
 func NewClient(apiKey string) *Client {
 	return &Client{
 		BaseURL:    "https://api.simli.ai",
@@ -23,7 +22,6 @@ func NewClient(apiKey string) *Client {
 	}
 }
 
-// post sends an HTTP POST request and parses the JSON response.
 func (c *Client) post(endpoint string, payload interface{}, response interface{}) error {
 	url := c.BaseURL + endpoint
 	jsonData, err := json.Marshal(payload)
