@@ -21,7 +21,7 @@ func TestStartWebRTCSession(t *testing.T) {
 
 	c := &client.Client{
 		BaseURL:    server.URL,
-		APIKey:     "n91d0biopn3vb4lszdts1",
+		APIKey:     "",
 		HTTPClient: &http.Client{},
 	}
 
