@@ -1,6 +1,6 @@
 # Simli-Go-SDK
 
-Simli-Go-SDK is a Go library for interacting with the Simli API, enabling the creation of avatar videos from audio or text inputs. This SDK simplifies the process of generating avatar-based content by abstracting the underlying API calls.
+Simli-Go-SDK is a Go library for interacting with the Simli API. This SDK simplifies generating avatar-based content by abstracting the underlying API calls.
 
 ---
 
@@ -19,7 +19,7 @@ Import the required packages in your Go file:
     "github.com/oyedeletemitope/simli-go-sdk/models"
 ```
 ## **Set Up Your Environment**
-Use an .env file to securely store your credentials:
+Use an .env file to store your credentials securely:
 
 ```bash
 SIMLI_API_KEY=your-simli-api-key
