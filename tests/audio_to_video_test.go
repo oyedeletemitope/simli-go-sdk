@@ -21,13 +21,13 @@ func TestAudioToVideoBasic(t *testing.T) {
 
 	c := &client.Client{
 		BaseURL:    server.URL,
-		APIKey:     "n91d0biopn3vb4lszdts1",
+		APIKey:     "",
 		HTTPClient: &http.Client{},
 	}
 
 	req := models.AudioToVideoRequest{
-		SimliAPIKey:       "n91d0biopn3vb4lszdts1",
-		FaceID:            "ebf0aa7-6fed-443d-a4c6-fd1e3080b215",
+		SimliAPIKey:       "",
+		FaceID:            "",
 		AudioBase64:       "mock-audio-data",
 		AudioFormat:       "pcm16",
 		AudioSampleRate:   16000,
