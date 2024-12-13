@@ -20,14 +20,14 @@ func TestStartAudioToVideoSession(t *testing.T) {
 
 	c := &client.Client{
 		BaseURL:    server.URL,
-		APIKey:     "n91d0biopn3vb4lszdts1",
+		APIKey:     "",
 		HTTPClient: &http.Client{},
 	}
 
 	req := models.AudioToVideoSessionRequest{
-		FaceID:           "6ebf0aa7-6fed-443d-a4c6-fd1e3080b215",
+		FaceID:           "",
 		IsJPG:            true,
-		APIKey:           "n91d0biopn3vb4lszdts1",
+		APIKey:           "",
 		SyncAudio:        true,
 		MaxSessionLength: 3600,
 		MaxIdleTime:      600,
