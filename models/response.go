@@ -13,3 +13,8 @@ type WebRTCSessionResponse struct {
 	SDP  string `json:"sdp"`
 	Type string `json:"type"`
 }
+
+type StartWebRTCSessionResponse struct {
+	SessionToken string      `json:"sessionToken"`
+	IceServers   []IceServer `json:"iceServers"`
+}
