@@ -22,3 +22,8 @@ type WebRTCSessionRequest struct {
 	SDP  string `json:"sdp"`
 	Type string `json:"type"`
 }
+
+type StartWebRTCSessionRequest struct {
+	FaceID string `json:"faceId"`
+	ApiKey string `json:"apiKey"`
+}
