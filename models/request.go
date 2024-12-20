@@ -21,6 +21,8 @@ type AudioToVideoSessionRequest struct {
 type WebRTCSessionRequest struct {
 	SDP  string `json:"sdp"`
 	Type string `json:"type"`
+	FaceID string `json:"faceId"`
+	ApiKey string `json:"apiKey"`
 }
 
 type StartWebRTCSessionRequest struct {
